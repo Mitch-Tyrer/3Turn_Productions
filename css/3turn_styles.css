@@ -1,0 +1,19 @@
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../assets/img/Tyrehampton_ChurchVillageGreen_02.jpg");
+    
+}
+
+nav {
+    background-color: #693b8b;
+}
+
+
+.jumbotron {
+    margin-top: 100px;
+}
