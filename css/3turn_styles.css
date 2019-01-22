@@ -1,6 +1,9 @@
 body{
     background-color:#dda2ee;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;   
+}
+#first-section.navbar-fixed {
+    padding-top: 125px; 
 }
 .masthead {
     position: relative;
@@ -27,6 +30,9 @@ nav {
     margin-bottom: 75px;
 }
 
+.navbar.fixed-top {
+    margin-bottom: 50px;
+}
 
 .jumbotron {
     margin-top: 100px;
