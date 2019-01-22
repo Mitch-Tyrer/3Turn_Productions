@@ -1,4 +1,6 @@
-
+body{
+    background-color:#dda2ee ;
+}
 .masthead {
     position: relative;
     width: 100%;
@@ -9,8 +11,19 @@
     
 }
 
+section {
+    padding-bottom: 150px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+}
+
 nav {
     background-color: #693b8b;
+}
+.navbar {
+    margin-bottom: 75px;
 }
 
 
@@ -20,4 +33,9 @@ nav {
 
 .container {
     margin-top: 16px;
+}
+
+#banner-icon {
+    color: #834ea8;
+    margin-bottom: 25px;
 }
