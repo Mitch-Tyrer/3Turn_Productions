@@ -2,8 +2,8 @@ body{
     background-color:#dda2ee;
     font-family: 'Work Sans', sans-serif;   
 }
-#first-section.navbar-fixed {
-    padding-top: 125px; 
+.section.navbar-fixed {
+    padding-top: 150px; 
 }
 .masthead {
     position: relative;
@@ -15,8 +15,8 @@ body{
     
 }
 
-section {
-    padding-bottom: 150px;
+#section {
+    padding-top: 125px;
 }
 
 section h3.section-subheading {
@@ -31,7 +31,8 @@ nav {
 }
 
 .navbar.fixed-top {
-    margin-bottom: 50px;
+    
+    margin-bottom: 200px;
 }
 
 .jumbotron {

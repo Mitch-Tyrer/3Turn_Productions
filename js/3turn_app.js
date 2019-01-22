@@ -1,21 +1,29 @@
+var shiftWindow = function() { scrollBy(0, -50) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+
 let navBar = document.getElementById("navbar");
-let body = document.getElementById('first-section')
+let section = document.querySelectorAll(".section");
 
-const addClass = () => {
+const addNavClass = () => {
     navBar.classList.add("fixed-top");
-    body.classList.add("navbar-fixed");
+    
 }
 
-const removeClass = () => {
+const removeNavClass = () => {
     navBar.classList.remove("fixed-top");
-    body.classList.remove("navbar-fixed");
+    
 }
+
+
 
 window.addEventListener('scroll', function () {
     let scrollPos = window.pageYOffset; 
     if (scrollPos > 700){
-        addClass();
+        addNavClass();
+        
     } else {
-        removeClass();
+        removeNavClass();
+        
     }
 });
