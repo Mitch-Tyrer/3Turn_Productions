@@ -1,5 +1,6 @@
 body{
-    background-color:#dda2ee ;
+    background-color:#dda2ee;
+    font-family: 'Work Sans', sans-serif;
 }
 .masthead {
     position: relative;
@@ -60,4 +61,13 @@ nav {
 
 .carousel {
     padding: 100px;
+}
+section#contact .form-group textarea.form-control {
+    height: 248px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group input, section#contact .form-group textarea {
+    padding: 20px;
 }
